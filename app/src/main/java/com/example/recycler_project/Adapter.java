@@ -15,7 +15,6 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
     public Adapter(List<Model> data) {
         this.data = data;
     }
-
     private List<Model> data;
 
     @NonNull
